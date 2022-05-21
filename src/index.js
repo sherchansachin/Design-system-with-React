@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PrimaryButton from "./components/Buttons";
 
-const App = () => <div>Hello sekai</div>;
+const App = () => <PrimaryButton>Hello sekai</PrimaryButton>;
 
 ReactDOM.render(<App />, document.querySelector("#root"));
